@@ -1,0 +1,144 @@
+body {
+  height: 100vh;
+  background-color: #fae1dd;
+}
+
+.title
+{
+  color: red;
+  font-family: Single Day;
+  text-align: center;
+  margin-top: 50px;
+  font-size: 75px;
+  margin-bottom: 0;
+}
+
+.goat
+{
+  display: none;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  width: 25em;
+  height: 25em;
+}
+
+.monkey
+{
+  display: grid;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  width: 20em;
+  height: 20em;
+}
+
+.sad_monkey
+{
+  display: none;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  width: 25em;
+  height: 25em;
+}
+
+.angry_monkey
+{
+  display: none;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  width: 25em;
+  height: 25em;
+}
+
+.img_container 
+{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+  align-items:end;
+  justify-items: center;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+
+.close_up_1
+{
+  transform: rotate(15deg);
+  display: grid;
+  border-radius: 25%;
+  width: 50%;
+  width: 15em;
+  height: 15em;
+}
+
+.close_up_2
+{
+  transform: rotate(-15deg);
+  display: grid;
+  border-radius: 25%;
+  width: 50%;
+  width: 15em;
+  height: 15em;
+}
+
+.pic_1
+{
+  transform: rotate(-15deg);
+  border-radius: 25%;
+  display: grid;
+  width: 50%;
+  width: 15em;
+  height: 15em;
+  margin-bottom:5vh;
+}
+
+.pic_2
+{
+  transform: rotate(15deg);
+  border-radius: 25%;
+  display: grid;
+  width: 50%;
+  width: 15em;
+  height: 15em;
+  margin-bottom:5vh;
+}
+
+.buttons
+{
+  margin-top: 30px;
+  text-align: center;
+}
+
+.yes
+{
+  display: inline-block;
+  color: #fae1dd;
+  margin-right: 20px;
+  width: 120px;
+  height: 60px;
+  font-size: 20px;
+  border-radius: 10px;
+  border: white;
+  background-image: linear-gradient(to top right, rgb(208, 74, 96), rgb(248, 179, 238));
+  transition: all 0.3s ease
+}
+
+.no{
+  display: inline-block;
+  margin-left: 20px;
+  width: 120px;
+  height: 60px;
+  font-size: 20px;
+  border-radius: 10px;
+  border: white;
+  background-color: black;
+  color: gray;
+  transition: all 0.3s ease
+}
+
